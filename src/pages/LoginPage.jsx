@@ -16,7 +16,8 @@ export default function LoginPage() {
 
   return (
     <div className="auth-container">
-      <h2>Login</h2>
+      <h2>To-Do App</h2>
+      <h4>Login</h4>
       <form onSubmit={handleLogin}>
         <input
           type="email"
