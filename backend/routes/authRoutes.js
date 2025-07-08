@@ -6,7 +6,7 @@ const authMiddleware = require('../middleware/authMiddleware.js');
 
 const router = express.Router();
 
-// ✅ Protected route should be defined BEFORE export
+//  Protected route should be defined BEFORE export
 router.get('/protected', authMiddleware, (req, res) => {
   res.json({ message: `Authenticated access granted to user ${req.user.userId}` });
 });
