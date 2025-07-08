@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 16px 16px;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  padding: 1rem 2rem;
+  gap: 1.5rem;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.kanban-board {
+  flex: 1;
+  display: flex;
+  gap: 1rem;
+  background-color: white;
+  border-radius: 16px;
+  padding: 1rem;
+  overflow-x: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.column-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.task-card {
+  background-color: #f1f3f5;
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+.board-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #eef1f4;
+}
+
+.main-area {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.content-area {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+  justify-content: center;
+}

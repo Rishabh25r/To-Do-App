@@ -1,0 +1,43 @@
+.kanban-board {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.kanban-column {
+  flex: 1;
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  min-height: 300px;
+}
+
+.kanban-task {
+  background: #f8f9fa;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin: 16px;
+}
+
+.task-form input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.task-form button {
+  background: #0062ff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
