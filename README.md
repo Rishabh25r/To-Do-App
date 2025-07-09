@@ -118,7 +118,7 @@ If two users edit the same task at roughly the same time , conflict handlling de
 This prevents accidental overwrites and enhances collaborative reliability.
 
 
-
+For a more detailed explanatin on Smart Assign and Conflict Handling , read this : https://docs.google.com/document/d/1us7RJYZ-j4HuyJwGjlL6tVXesATsfplkCNvl09B1PGk/edit?usp=sharing
 
 
 
