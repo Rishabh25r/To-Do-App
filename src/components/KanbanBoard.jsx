@@ -1,5 +1,5 @@
 import TaskCard from '../pages/TaskCard';
-import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
+import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
 import './KanbanBoard.css';
 
 function KanbanBoard({ tasks, onStatusChange }) {
