@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import axios from 'axios'; 
-import './auth.css'; 
+import axios from 'axios';
+import './auth.css';
 
 export default function LoginPage() {
   const [email, setEmail] = useState('');
@@ -9,21 +9,21 @@ export default function LoginPage() {
   const navigate = useNavigate();
 
   const handleLogin = async (e) => {
-  e.preventDefault();
-  try {
-    const response = await axios.post('http://localhost:5000/api/auth/login', {
-      email,
-      password,
-    });
-    localStorage.setItem('token', response.data.token);
-    localStorage.setItem('user', JSON.stringify(response.data.user));
+    e.preventDefault();
+    try {
+      const response = await axios.post('http://localhost:5000/api/auth/login', { //change path
+        email,
+        password,
+      });
+      localStorage.setItem('token', response.data.token);
+      localStorage.setItem('user', JSON.stringify(response.data.user));
 
-    navigate('/board');
-  } catch (err) {
-    console.error('Login failed:', err);
-    alert('Login failed: ' + err?.response?.data?.message || 'Unknown error');
-  }
-};
+      navigate('/board');
+    } catch (err) {
+      console.error('Login failed:', err);
+      alert('Login failed: ' + err?.response?.data?.message || 'Unknown error');
+    }
+  };
 
   return (
     <div className="auth-container">
