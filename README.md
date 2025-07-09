@@ -33,3 +33,55 @@ Project-Overview:
 - Socket.IO (for real-time communication)
 - JWT-based authentication
 - Bcrypt (for password hashing)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### 1. 📁 Clone the Repository
+```bash 
+git clone https://github.com/yourusername/collab-todo-app.git
+cd collab-todo-app
+2. 🔌 Backend Setup
+bash
+Copy
+Edit
+cd backend
+npm install
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
